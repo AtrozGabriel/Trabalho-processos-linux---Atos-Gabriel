@@ -9,3 +9,10 @@ Ambiente utilizado: Xunbuntu 25.10 em maquina virtual (iso fornecida em sala de 
 Como executar a aplicação analisada: Codigo em python nomeado de "teste.py" basta abrir em um editor de codigo e rodar, como mencionado antes utilizei o VSCODE para a analise.
 
 Comandos utilizados: 
+pgrep - af teste.py
+ps -o pid,ppid,cmd PID
+ps -p  PID -o args
+pstree PID
+pstree -sp PID
+
+
